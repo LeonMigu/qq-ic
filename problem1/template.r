@@ -2,8 +2,8 @@
 
 ###### DONOT CHANGE THIS ############
 ### First we download data files from github
-url1 = "https://raw.githubusercontent.com/Auquan/qq6data/master/qq6p3data/CSIJBP.csv"
-url2 = "https://raw.githubusercontent.com/Auquan/qq6data/master/qq6p3data/EYCHIS.csv"
+url1 = "https://raw.githubusercontent.com/Auquan/qq-ic/master/training_data.csv"
+url2 = "https://raw.githubusercontent.com/Auquan/qq-ic/master/test_data.csv"
 if (!file.exists("training_data.csv")) {
 download.file(url1, "training_data.csv", method = "auto", quiet = FALSE, mode = "w")
 }
